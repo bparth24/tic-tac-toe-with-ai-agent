@@ -1,0 +1,39 @@
+# Node.js dependencies
+/node_modules/
+
+# Environment files (to avoid committing sensitive data)
+.env
+secrets.json
+
+# Build output
+/dist/
+/build/
+
+# TypeScript generated files
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Coverage directory (for testing coverage reports)
+/coverage/
+
+# macOS-specific temporary files
+*.swp
+*~
+
+# JetBrains-specific files
+.idea/
+
+# End of .gitignore
